@@ -1,0 +1,28 @@
+{
+  "dependencies": {
+    "@babel/cli": "^7.14.8",
+    "@babel/core": "^7.15.0",
+    "@babel/node": "^7.14.9",
+    "@babel/preset-env": "^7.15.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.12"
+  },
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "server",
+  "main": "server",
+  "scripts": {
+    "start": "nodemon ./src/server.js --exec babel-node -e js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "bcrypt": "^5.0.1",
+    "http": "^0.0.1-security",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.13.7",
+    "unique": "^0.0.1"
+  }
+}
